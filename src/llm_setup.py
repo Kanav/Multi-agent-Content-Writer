@@ -2,7 +2,7 @@ import os
 from langchain_openai import ChatOpenAI
 
 
-def get_llm(model_name: str = "gpt-4-turbo", temperature: float = 0.7):
+def get_llm(model_name: str = "gpt-5.2", temperature: float = 0.2):
     """Initialize and return a ChatOpenAI model using the OpenAI API key from environment variables."""
     api_key = os.environ.get("OPENAI_API_KEY")
 
