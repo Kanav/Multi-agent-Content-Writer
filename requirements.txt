@@ -2,3 +2,8 @@ langgraph
 langchain
 langchain-openai
 deepagents
+
+tavily-python
+langchain-tavily
+
+IPython

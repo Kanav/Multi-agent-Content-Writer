@@ -54,6 +54,7 @@ htmlcov/
 
 # Environment variables and secrets
 .env.local
+.envrc
 .env.*.local
 secrets.json
 config.json
